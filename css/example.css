@@ -1,0 +1,321 @@
+html,
+.body
+{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+/* hide horizontal scrollbars, since we use the vertical ones to scroll to the right */
+.body
+{
+  overflow-x: hidden;
+  background: url('../images/bg.jpg') repeat top left;
+}
+
+h1
+{
+  font-size: 20px;
+  font-weight: normal;
+  color: #2e6e80;
+}
+
+/**
+  * important: keep position fixed, you can however use top:0 instead of bottom:0
+  * if you want to make it stick to the top of the browser
+  */
+.scroll
+{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+/**
+  * z-index ordering of the different layers, do this for your layers,
+  * also assign absolute width (to prevent issues if the script gets executed before the images get loaded)
+  */
+.horizon
+{
+  z-index: 1;
+  width: 61000px;
+}
+
+.middle
+{
+  z-index: 500;
+  width: 61000px;
+}
+
+.front
+{
+  z-index: 1000;
+  width: 61000px;
+}
+
+#firstpage {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 40px;
+    top: -1700px;
+}
+
+#image2 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 2000px;
+    top: -1700px;
+}
+
+#image3 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 3950px;
+    top: -1700px;
+}
+
+#image4 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 5910px;
+    top: -1700px;
+}
+
+#image5 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 7860px;
+    top: -1700px;
+}
+
+#image6 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 9800px;
+    top: -1700px;
+}
+
+#image7 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 11772px;
+    top: -1700px;
+}
+
+#image8 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 13715px;
+    top: -1700px;
+}
+
+#image9 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 15650px;
+    top: -1700px;
+}
+
+#image10 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 17555px;
+    top: -1700px;
+}
+
+#image11 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 19510px;
+    top: -1700px;
+}
+
+#image12 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 21465px;
+    top: -1700px;
+}
+
+#image13 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 23420px;
+    top: -1700px;
+}
+
+#image14 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 25380px;
+    top: -1700px;
+}
+
+#image15 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 27320px;
+    top: -1700px;
+}
+
+#image16 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 29290px;
+    top: -1700px;
+}
+
+#image17 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 31240px;
+    top: -1700px;
+}
+
+#image18 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 33100px;
+    top: -1700px;
+}
+
+#image19 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 35050px;
+    top: -1700px;
+}
+
+#image20 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 37000px;
+    top: -1700px;
+}
+
+#image21 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 38962px;
+    top: -1700px;
+}
+
+#image22 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 40910px;
+    top: -1700px;
+}
+
+#image23 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 42875px;
+    top: -1700px;
+}
+
+#image24 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 44820px;
+    top: -1700px;
+}
+
+#image25 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 46730px;
+    top: -1700px;
+}
+
+#image26 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 48650px;
+    top: -1700px;
+}
+
+#image27 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 50615px;
+    top: -1700px;
+}
+
+#image28 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 52550px;
+    top: -1700px;
+}
+
+#image29 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 54515px;
+    top: -1700px;
+}
+
+#image30 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 56460px;
+    top: -1700px;
+}
+
+#image31 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 58425px;
+    top: -1700px;
+}
+
+#image32 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 60350px;
+    top: -1700px;
+}
+
+#image33 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 62450px;
+    top: -1700px;
+}
