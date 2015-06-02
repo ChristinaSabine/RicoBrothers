@@ -9,11 +9,6 @@ html,
     background-color: #FFFFFF;
 }
 
-.video_centre {
- padding-left: 40px;
- padding-top: 60px;
-}
-
 /* hide horizontal scrollbars, since we use the vertical ones to scroll to the right */
 .body
 {
@@ -349,42 +344,30 @@ h1
 }
 
 img.curtain {
-    height:574px; 
+    height:300px; 
     z-index:99; 
 }
 		
-
 img.curtainLeft{
-    width: 418px;
+    width: 250px;
 	position:absolute; 
 	left:0px; 
-}
-		
+}	
 
 img.curtainRight{
-    width: 418px;
+    width: 250px;
 	position:absolute; 
 	right:0px; 
+    
 }
 		
-
-#curtain_wrapper{
-    float: left;
-    display: inline;
-    position: absolute;
-    color:white;
-    background: black;
-    overflow:hidden;
-    left: 15495px;
-    top: -750px;
+.curtain_wrapper{
+	width:500px; 
+	height:300px;
+	position:relative; 
+	overflow:hidden; 
+	color:white; 
+	background:black; 
     margin:0px auto;
-}
-
-#curtain_content{
-	<!--position: absolute; -->
-	margin:0px auto; 
-    width: 736px; 
-	display:none; 
-    transform: translateY(-50%);
-    top: 50%;
+    			
 }
