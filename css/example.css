@@ -9,6 +9,11 @@ html,
     background-color: #FFFFFF;
 }
 
+.test {
+ padding-left: 40px;
+ padding-top: 60px;
+}
+
 /* hide horizontal scrollbars, since we use the vertical ones to scroll to the right */
 .body
 {
@@ -320,3 +325,121 @@ h1
     left: 26685px;
     top: -750px;
 }
+
+<!--.centre {
+    width: 30%; 
+    height: 50%; 
+    position: absolute; 
+    top: 0; right: 0; 
+    bottom: 0; left: 0;
+    margin: auto; 
+}-->
+
+
+img.curtain {
+    height:574px; 
+    z-index:99; 
+		}
+		
+
+img.curtainLeft{
+    width: 418px;
+	position:absolute; 
+	left:0px; 
+		}
+		
+
+img.curtainRight{
+    width: 418px;
+	position:absolute; 
+	right:0px; 
+		}
+		
+
+#curtain_wrapper{
+    float: left;
+    display: inline;
+    position: absolute;
+    color:white;
+    background: black;
+    overflow:hidden;
+    left: 15495px;
+    top: -750px;
+    margin:0px auto;
+  
+   <!--left: 15495px;
+   top: -750px;
+	width:836px; 
+	height:574px;
+	<!--position:relative; -->
+    <!--position: absolute;
+	overflow:hidden;
+	<!--color:white;-->
+	<!--background:black; 
+    margin:0px auto;-->
+    			
+}
+
+<!--.curtain_wrapper {
+    float: left;
+    position: absolute; 
+    display: inline;
+    position: absolute;
+    <!--left: 5910px;
+    top: -1700px;-->
+}
+
+<!--#image19 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 14635px;
+    top: -750px;-->
+
+#curtain_content{
+	<!--position: absolute; -->
+	margin:0px auto; 
+    width: 736px; 
+	display:none; 
+    transform: translateY(-50%);
+    top: 50%;
+    <!--text-align: center;-->
+    <!--position:relative; 
+	overflow:hidden; 
+	color:white; 
+	background:black; 
+    margin:0px auto;
+	<!--margin:0px auto; 
+	transform: translateY(-50%);
+    top: 50%;-->
+}
+
+
+<!--.centre {
+    width: 30%; 
+    height: 50%; 
+    position: absolute; 
+    top: 0; right: 0; 
+    bottom: 0; left: 0;
+    margin: auto; 
+}-->
+<!--.curtain_wrapper{
+	width:500px; 
+	height:300px;
+	position:relative; 
+	overflow:hidden; 
+	color:white; 
+	background:black; 
+    margin:0px auto;
+    
+}
+		
+
+.content{
+	position:relative; 
+	width: 400px; 
+	margin:0px auto; 
+	display:none; 
+    transform: translateY(-50%);
+    top: 50%;
+}-->

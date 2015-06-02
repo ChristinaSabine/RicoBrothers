@@ -30,7 +30,7 @@
         <img src="images/thinking.jpg" id="image17" alt="" />
         <img src="images/youwhat.jpg" id="image18" alt="" />
         <img src="images/camrea.jpg" id="image19" alt="" />
-        <img src="images/camrea.jpg" id="image20" alt="" />
+        <!--<img src="images/camrea.jpg" id="image20" alt="" />-->
         <img src="images/bin.jpg" id="image21" alt="" />
         <img src="images/bin2.jpg" id="image22" alt="" />
         <img src="images/bin3.jpg" id="image23" alt="" />
@@ -49,10 +49,25 @@
         <img id="film" src="images/film.png" alt="" />
     </div>
     <div class="front scroll">
-        <img src="images/front.png" alt="" />
+        <!--<img src="images/front.png" alt="" />-->
+        
+        <div id="curtain_wrapper" alt="" />>
+    
+	           <img class='curtain curtainLeft' src='images/2curt.png' />
+               <img class='curtain curtainRight' src='images/2curt.png' />
+    
+    	<div id="curtain_content">
+                 <video class="test" width="766" controls>
+                    <source src="video/buck.mp4" type="video/mp4">
+                 </video> 
+            
+         </div>
+      </div> 
     </div>
     
-    <script type="text/javascript" src="../libs/jquery.min.js"></script>
+    <script type="text/javascript" src="../libs/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../libs/curtain.js"></script>
+    <!--<script type="text/javascript" src="../libs/jquery.min.js"></script>-->
     <script type="text/javascript" src="../src/jquery.jInvertScroll.js"></script>
     <script type="text/javascript">
     (function($) {
@@ -73,6 +88,11 @@
           }
         });
     }(jQuery));
+        
+        $("#curtain_wrapper").click(function(){
+            $(".test")[0].play();
+        });
+        
     </script>
                         <div id="footer" style="height: 0px; position: fixed; bottom: 20px;">
 </body>
