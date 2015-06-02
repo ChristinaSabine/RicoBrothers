@@ -30,7 +30,7 @@
         <img src="images/thinking.jpg" id="image17" alt="" />
         <img src="images/youwhat.jpg" id="image18" alt="" />
         <img src="images/camrea.jpg" id="image19" alt="" />
-        <img src="images/camrea.jpg" id="image20" alt="" />
+        <!--<img src="images/camrea.jpg" id="image20" alt="" />-->
         <img src="images/bin.jpg" id="image21" alt="" />
         <img src="images/bin2.jpg" id="image22" alt="" />
         <img src="images/bin3.jpg" id="image23" alt="" />
@@ -53,19 +53,22 @@
             <p><a class="box1" href="http://https://twitter.com/Rico_Brothers" role="button" style="margin-bottom: 15px">The Rico Brothers Twitter &raquo;</a></p>
         </div>
     
-             <div class='curtain_wrapper'>
+        <div id="curtain_wrapper" alt="">
     
 	           <img class='curtain curtainLeft' src='images/2curt.png' />
                <img class='curtain curtainRight' src='images/2curt.png' />
     
-    	<div class='content'>
-                 <video width="400" controls>
+    	<div id="curtain_content">
+                 <video class="video_centre" width="766" controls>
                     <source src="video/buck.mp4" type="video/mp4">
                  </video> 
+            
          </div>
       </div> 
     
-    <script type="text/javascript" src="../libs/jquery.min.js"></script>
+    <script type="text/javascript" src="../libs/jquery-1.9.1.min.js"></script>
+    <!--<script type="text/javascript" src="../libs/jquery.min.js"></script>-->
+    <script type="text/javascript" src="../libs/curtain.js"></script>
     <script type="text/javascript" src="../src/jquery.jInvertScroll.js"></script>
     <script type="text/javascript">
     (function($) {
@@ -85,6 +88,11 @@
           }
         });
     }(jQuery));
+        
+    $("#curtain_wrapper").click(function(){
+            $(".video_centre")[0].play();
+        });
+        
     </script>
                         <div id="footer" style="height: 0px; position: fixed; bottom: 20px;">
 </body>
