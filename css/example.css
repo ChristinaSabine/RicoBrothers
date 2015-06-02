@@ -30,31 +30,8 @@ h1
 .scroll
 {
   position: fixed;
-  bottom: 0;
+  bottom: -4px;
   left: 0;
-}
-
-.box {
-    width: 230px;
-    height: 250px;
-    background-color: #4F4F4F;
-    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
-    margin-left: 0px;
-    margin: 5px 5px 5px 5px;
-    padding-top: 10px;
-    display: inline-block;
-    text-align: center;
-    line-height: 43px;
-	border: 1px solid #333232;
-	border-radius: 2px;
-	color: #fff;
-	font-family: 'Exo', sans-serif;
-	font-size: 20px;
-	font-weight: 700;
-    text-decoration: none;
-    margin-left: 5px;
-    background: linear-gradient(#818181, #262626);  
-    
 }
 
 /**
@@ -64,19 +41,19 @@ h1
 .horizon
 {
   z-index: 1;
-  width: 61000px;
+  width: 30000px;
 }
 
 .middle
 {
   z-index: 500;
-  width: 61000px;
+  width: 30000px;
 }
 
 .front
 {
   z-index: 1000;
-  width: 61000px;
+  width: 30000px;
 }
 
 #firstpage {
@@ -87,287 +64,259 @@ h1
     top: -1700px;
 }
 
+
 #image2 {
     float: left;
     display: inline;
     position: absolute;
-    left: 2000px;
-    top: -1700px;
+    left: 20px;
+    top: -750px;
 }
 
 #image3 {
     float: left;
     display: inline;
     position: absolute;
-    left: 3950px;
-    top: -1700px;
+    left: 885px;
+    top: -750px;
 }
 
 #image4 {
     float: left;
     display: inline;
     position: absolute;
-    left: 5910px;
-    top: -1700px;
+    left: 1750px;
+    top: -750px;
 }
 
 #image5 {
     float: left;
     display: inline;
     position: absolute;
-    left: 7860px;
-    top: -1700px;
+    left: 2615px;
+    top: -750px;
 }
 
 #image6 {
     float: left;
     display: inline;
     position: absolute;
-    left: 9800px;
-    top: -1700px;
+    left: 3480px;
+    top: -750px;
 }
 
 #image7 {
     float: left;
     display: inline;
     position: absolute;
-    left: 11772px;
-    top: -1700px;
+    left: 4345px;
+    top: -750px;
 }
 
 #image8 {
     float: left;
     display: inline;
     position: absolute;
-    left: 13715px;
-    top: -1700px;
+    left: 5205px;
+    top: -750px;
 }
 
 #image9 {
     float: left;
     display: inline;
     position: absolute;
-    left: 15650px;
-    top: -1700px;
+    left: 6065px;
+    top: -750px;
 }
 
 #image10 {
     float: left;
     display: inline;
     position: absolute;
-    left: 17555px;
-    top: -1700px;
+    left: 6920px;
+    top: -750px;
 }
 
 #image11 {
     float: left;
     display: inline;
     position: absolute;
-    left: 19510px;
-    top: -1700px;
+    left: 7755px;
+    top: -750px;
 }
 
 #image12 {
     float: left;
     display: inline;
     position: absolute;
-    left: 21465px;
-    top: -1700px;
+    left: 8620px;
+    top: -750px;
 }
 
 #image13 {
     float: left;
     display: inline;
     position: absolute;
-    left: 23420px;
-    top: -1700px;
+    left: 9480px;
+    top: -750px;
 }
 
 #image14 {
     float: left;
     display: inline;
     position: absolute;
-    left: 25380px;
-    top: -1700px;
+    left: 10350px;
+    top: -750px;
 }
 
 #image15 {
     float: left;
     display: inline;
     position: absolute;
-    left: 27320px;
-    top: -1700px;
+    left: 11210px;
+    top: -750px;
 }
 
 #image16 {
     float: left;
     display: inline;
     position: absolute;
-    left: 29290px;
-    top: -1700px;
+    left: 12080px;
+    top: -750px;
 }
 
 #image17 {
     float: left;
     display: inline;
     position: absolute;
-    left: 31240px;
-    top: -1700px;
+    left: 12940px;
+    top: -750px;
 }
 
 #image18 {
     float: left;
     display: inline;
     position: absolute;
-    left: 33100px;
-    top: -1700px;
+    left: 13780px;
+    top: -750px;
 }
 
 #image19 {
     float: left;
     display: inline;
     position: absolute;
-    left: 35050px;
-    top: -1700px;
+    left: 14635px;
+    top: -750px;
 }
 
 #image20 {
     float: left;
     display: inline;
     position: absolute;
-    left: 37000px;
-    top: -1700px;
+    left: 15495px;
+    top: -750px;
 }
 
 #image21 {
     float: left;
     display: inline;
     position: absolute;
-    left: 38962px;
-    top: -1700px;
+    left: 16365px;
+    top: -750px;
 }
 
 #image22 {
     float: left;
     display: inline;
     position: absolute;
-    left: 40910px;
-    top: -1700px;
+    left: 17225px;
+    top: -750px;
 }
 
 #image23 {
     float: left;
     display: inline;
     position: absolute;
-    left: 42875px;
-    top: -1700px;
+    left: 18094px;
+    top: -750px;
 }
 
 #image24 {
     float: left;
     display: inline;
     position: absolute;
-    left: 44820px;
-    top: -1700px;
+    left: 18950px;
+    top: -750px;
 }
 
 #image25 {
     float: left;
     display: inline;
     position: absolute;
-    left: 46730px;
-    top: -1700px;
+    left: 19812px;
+    top: -750px;
 }
 
 #image26 {
     float: left;
     display: inline;
     position: absolute;
-    left: 48650px;
-    top: -1700px;
+    left: 20650px;
+    top: -750px;
 }
 
 #image27 {
     float: left;
     display: inline;
     position: absolute;
-    left: 50615px;
-    top: -1700px;
+    left: 21510px;
+    top: -750px;
 }
 
 #image28 {
     float: left;
     display: inline;
     position: absolute;
-    left: 52550px;
-    top: -1700px;
+    left: 22375px;
+    top: -750px;
 }
 
 #image29 {
     float: left;
     display: inline;
     position: absolute;
-    left: 54515px;
-    top: -1700px;
+    left: 23235px;
+    top: -750px;
 }
 
 #image30 {
     float: left;
     display: inline;
     position: absolute;
-    left: 56460px;
-    top: -1700px;
+    left: 24100px;
+    top: -750px;
 }
 
 #image31 {
     float: left;
     display: inline;
     position: absolute;
-    left: 58425px;
-    top: -1700px;
+    left: 24960px;
+    top: -750px;
 }
 
 #image32 {
     float: left;
     display: inline;
     position: absolute;
-    left: 60350px;
-    top: -1700px;
+    left: 25827px;
+    top: -750px;
 }
 
 #image33 {
     float: left;
     display: inline;
     position: absolute;
-    left: 62450px;
-    top: -1700px;
-}
-
-img.curtain {
-    height:300px; 
-    z-index:99; 
-}
-		
-img.curtainLeft{
-    width: 250px;
-	position:absolute; 
-	left:0px; 
-}	
-
-img.curtainRight{
-    width: 250px;
-	position:absolute; 
-	right:0px; 
-    
-}
-		
-.curtain_wrapper{
-	width:500px; 
-	height:300px;
-	position:relative; 
-	overflow:hidden; 
-	color:white; 
-	background:black; 
-    margin:0px auto;
-    			
+    left: 26685px;
+    top: -750px;
 }
