@@ -46,31 +46,31 @@ h1
 .horizon
 {
   z-index: 1;
-  width: 30000px;
+  width: 28000px;
 }
 
 .middle
 {
   z-index: 500;
-  width: 30000px;
+  width: 28000px;
 }
 
 .front
 {
   z-index: 1000;
-  width: 30000px;
+  width: 28000px;
 }
 
-#firstpage {
+<!--#firstpage {
     float: left;
     display: inline;
     position: absolute;
     left: 40px;
-    top: -1700px;
-}
+    top: -750px;
+}-->
 
 
-#image2 {
+#firstpage {
     float: left;
     display: inline;
     position: absolute;
@@ -78,7 +78,7 @@ h1
     top: -750px;
 }
 
-#image3 {
+#image2 {
     float: left;
     display: inline;
     position: absolute;
@@ -86,7 +86,7 @@ h1
     top: -750px;
 }
 
-#image4 {
+#image3 {
     float: left;
     display: inline;
     position: absolute;
@@ -94,7 +94,7 @@ h1
     top: -750px;
 }
 
-#image5 {
+#image4 {
     float: left;
     display: inline;
     position: absolute;
@@ -102,7 +102,7 @@ h1
     top: -750px;
 }
 
-#image6 {
+#image5 {
     float: left;
     display: inline;
     position: absolute;
@@ -110,7 +110,7 @@ h1
     top: -750px;
 }
 
-#image7 {
+#image6 {
     float: left;
     display: inline;
     position: absolute;
@@ -118,7 +118,7 @@ h1
     top: -750px;
 }
 
-#image8 {
+#image7 {
     float: left;
     display: inline;
     position: absolute;
@@ -126,7 +126,7 @@ h1
     top: -750px;
 }
 
-#image9 {
+#image8 {
     float: left;
     display: inline;
     position: absolute;
@@ -134,7 +134,7 @@ h1
     top: -750px;
 }
 
-#image10 {
+#image9 {
     float: left;
     display: inline;
     position: absolute;
@@ -142,7 +142,7 @@ h1
     top: -750px;
 }
 
-#image11 {
+#image10 {
     float: left;
     display: inline;
     position: absolute;
@@ -150,7 +150,7 @@ h1
     top: -750px;
 }
 
-#image12 {
+#image11 {
     float: left;
     display: inline;
     position: absolute;
@@ -158,7 +158,7 @@ h1
     top: -750px;
 }
 
-#image13 {
+#image12 {
     float: left;
     display: inline;
     position: absolute;
@@ -166,7 +166,7 @@ h1
     top: -750px;
 }
 
-#image14 {
+#image13 {
     float: left;
     display: inline;
     position: absolute;
@@ -174,7 +174,7 @@ h1
     top: -750px;
 }
 
-#image15 {
+#image14 {
     float: left;
     display: inline;
     position: absolute;
@@ -182,7 +182,7 @@ h1
     top: -750px;
 }
 
-#image16 {
+#image15 {
     float: left;
     display: inline;
     position: absolute;
@@ -190,7 +190,7 @@ h1
     top: -750px;
 }
 
-#image17 {
+#image16 {
     float: left;
     display: inline;
     position: absolute;
@@ -198,7 +198,7 @@ h1
     top: -750px;
 }
 
-#image18 {
+#image17 {
     float: left;
     display: inline;
     position: absolute;
@@ -206,7 +206,7 @@ h1
     top: -750px;
 }
 
-#image19 {
+#image18 {
     float: left;
     display: inline;
     position: absolute;
@@ -214,7 +214,7 @@ h1
     top: -750px;
 }
 
-#image20 {
+#image19 {
     float: left;
     display: inline;
     position: absolute;
@@ -222,7 +222,7 @@ h1
     top: -750px;
 }
 
-#image21 {
+#image20 {
     float: left;
     display: inline;
     position: absolute;
@@ -230,7 +230,7 @@ h1
     top: -750px;
 }
 
-#image22 {
+#image21 {
     float: left;
     display: inline;
     position: absolute;
@@ -238,7 +238,7 @@ h1
     top: -750px;
 }
 
-#image23 {
+#image22 {
     float: left;
     display: inline;
     position: absolute;
@@ -246,7 +246,7 @@ h1
     top: -750px;
 }
 
-#image24 {
+#image23 {
     float: left;
     display: inline;
     position: absolute;
@@ -254,7 +254,7 @@ h1
     top: -750px;
 }
 
-#image25 {
+#image24 {
     float: left;
     display: inline;
     position: absolute;
@@ -262,7 +262,7 @@ h1
     top: -750px;
 }
 
-#image26 {
+#image25 {
     float: left;
     display: inline;
     position: absolute;
@@ -270,7 +270,7 @@ h1
     top: -750px;
 }
 
-#image27 {
+#image26 {
     float: left;
     display: inline;
     position: absolute;
@@ -278,7 +278,7 @@ h1
     top: -750px;
 }
 
-#image28 {
+#image27 {
     float: left;
     display: inline;
     position: absolute;
@@ -286,7 +286,7 @@ h1
     top: -750px;
 }
 
-#image29 {
+#image28 {
     float: left;
     display: inline;
     position: absolute;
@@ -294,7 +294,7 @@ h1
     top: -750px;
 }
 
-#image30 {
+#image29 {
     float: left;
     display: inline;
     position: absolute;
@@ -302,7 +302,7 @@ h1
     top: -750px;
 }
 
-#image31 {
+#image30 {
     float: left;
     display: inline;
     position: absolute;
@@ -310,7 +310,7 @@ h1
     top: -750px;
 }
 
-#image32 {
+#image31 {
     float: left;
     display: inline;
     position: absolute;
@@ -318,11 +318,19 @@ h1
     top: -750px;
 }
 
-#image33 {
+#image32 {
     float: left;
     display: inline;
     position: absolute;
     left: 26685px;
+    top: -750px;
+}
+
+#image33 {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 27545px;
     top: -750px;
 }
 
@@ -363,7 +371,7 @@ img.curtainRight{
     color:white;
     background: black;
     overflow:hidden;
-    left: 15495px;
+    left: 26685px;
     top: -750px;
     margin:0px auto;
   
@@ -389,12 +397,7 @@ img.curtainRight{
     top: -1700px;-->
 }
 
-<!--#image19 {
-    float: left;
-    display: inline;
-    position: absolute;
-    left: 14635px;
-    top: -750px;-->
+
 
 #curtain_content{
 	<!--position: absolute; -->
