@@ -9,18 +9,6 @@ html,
     background-color: #000000;
 }
 
-.test {
- padding-left: 0px;
- padding-top: 560px;
-}
-
-.radio{
-    float: left;
-    display: inline;
-    position: absolute;
-    left: 25300px;
-    top: -240px;
-}
 
 /* hide horizontal scrollbars, since we use the vertical ones to scroll to the right */
 .body
@@ -390,8 +378,6 @@ img.curtainRight{
     left: 26685px;
     top: -750px;
     margin:0px auto;
-    
-}
   
    <!--left: 15495px;
    top: -750px;
@@ -464,3 +450,17 @@ img.curtainRight{
     transform: translateY(-50%);
     top: 50%;
 }-->
+
+.test {
+ padding-left: 0px;
+ padding-top: 560px;
+}
+
+#radio {
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 25300px;
+    top: -340px;
+    z-index: 200000;
+}
