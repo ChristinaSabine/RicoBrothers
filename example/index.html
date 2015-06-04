@@ -3,14 +3,11 @@
 <head>
 	<meta charset="utf-8" />
 	<title>The Rico Brothers</title>
-
     <link rel="stylesheet" href="../css/example.css" />
-
 </head>
 <body>
     <!--<h1>The Rico Brothers</h1>-->
     <!-- put things here that you want to scroll up and down -->
-    
    <div class="horizon scroll">
         <img src="images/firstpage.png" width="835" height="574" id="firstpage" alt="" />
         <img src="images/grad.jpg" width="835" height="574" id="image2" alt="" />
@@ -49,14 +46,9 @@
     <div class="middle scroll">
         <img id="film" src="images/film.png" width="28009" height="900" alt="" />
     </div>
+    
     <div class="front scroll">
         <!--<img src="images/front.png" alt="" />-->
-        
-        <img id="radio" src="images/button.png" onclick="playPause()">
-            <audio id="radioMusic">
-                <source src="video/Are%20You%20Fucked%20-%20The%20Rico%20Brothers.wav" type="audio/wav">
-            </audio>
-        
         <div id="curtain_wrapper" alt="">
     
 	           <img class='curtain curtainLeft' src='images/2curt.png' />
@@ -67,14 +59,19 @@
                     <source src="video/Rico%20Bros%20Final.mp4" type="video/mp4">
                  </video> 
             
-         
-            
-        </div>
-    </div>
-           
-               
+         </div>
+        </div> 
+        <div class="radio">
+            <audio src="video/Are%20You%20Fucked%20-%20The%20Rico%20Brothers.wav" controls>
+         </audio>
+      </div>
       
-        </div>
+                
+                <div style="z-index: 10; position: fixed; left: 10px; height: 83px; bottom: -50px">
+                <a href="https://twitter.com/Rico_Brothers" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @Rico_Brothers</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
+</div>
+      </div>
     
     <script type="text/javascript" src="../libs/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="../libs/curtain.js"></script>
@@ -100,16 +97,6 @@
           }
         });
     }(jQuery));
-        
-        
-        var radioMusic = document.getElementById("radioMusic"); 
-
-function playPause() { 
-    if (radioMusic.paused) 
-        radioMusic.play(); 
-    else 
-        radioMusic.pause(); 
-}
         
     //video auto play - commented out as plays when curtains closed?
     //    $("#curtain_wrapper").click(function(){
